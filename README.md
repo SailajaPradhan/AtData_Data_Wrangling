@@ -48,7 +48,7 @@ Here’s a step-by-step breakdown of the project:
 We start by creating a SQL table with appropriate data types:
 
 ```sql
-CREATE TABLE zepto (
+CREATE TABLE atdata (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
   name VARCHAR(150) NOT NULL,
