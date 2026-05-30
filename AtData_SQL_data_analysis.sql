@@ -1,6 +1,6 @@
 drop table if exists atdata;
 
-create table zepto (
+create table atdata (
 sku_id SERIAL PRIMARY KEY,
 category VARCHAR(120),
 name VARCHAR(150) NOT NULL,
